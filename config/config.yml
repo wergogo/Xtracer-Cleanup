@@ -1,0 +1,16 @@
+baseConf:
+  # Target Android device serial as shown by `adb devices` (e.g., emulator-5554)
+  device_serial: emulator-5554
+  # Optional: if you want to auto-start an emulator via a script; otherwise start manually
+  simulator_path: ""
+  simulator_ip: ""
+  # Directory containing APKs to analyze (relative to workspace or absolute)
+  apk_dir: apks
+  # Hook mode: 'single' (process one APK) or 'mult' (batch)
+  hook_mode: single
+  # Whether to run the Monkey UI driver during tracing
+  use_monkey: false
+  # Frida server configuration
+  frida_server_host_path: ""  # e.g., C:/tools/frida-server-16.1.3-android-x86_64
+  frida_server_remote_path: /data/local/tmp/frida-server
+  frida_server_args: ""
