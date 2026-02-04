@@ -1,6 +1,7 @@
 # XTracer Quick Start (Android Dynamic Analysis)
 
 This repo automates dynamic analysis of Android APKs using Frida on an emulator. It installs an APK, injects Frida hooks, (optionally) drives UI events, and exports per-thread JSON traces.
+Edited and Cleaned UP from: https://github.com/kelin-roland/XTracer
 
 ## Prerequisites
 - Android SDK (adb, build-tools `aapt` available on PATH)
