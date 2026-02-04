@@ -1,0 +1,4 @@
+frida
+frida-tools
+pyyaml
+pandas
